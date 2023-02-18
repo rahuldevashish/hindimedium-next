@@ -5,7 +5,7 @@ const About = () => {
   return (
     <Page description="This is home page.">
       <article>
-        <h1>Teaching & Training Platform</h1>
+        <h1>Hare Krishna </h1>
 
         <p>
           {' '}

@@ -4,7 +4,7 @@
   "scripts": {
     "lint": "eslint . && prettier --write '**/*.js' --loglevel warn",
     "dev": "next-remote-watch posts",
-    "build": "yarn rss && next build",
+    "build": "next build",
     "rss": "node lib/rss",
     "new": "node lib/db"
   },

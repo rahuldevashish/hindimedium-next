@@ -3,17 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-<<<<<<< HEAD
-    "lint": "eslint . && prettier --write '**/*.js' --loglevel warn",
-    "dev": "next-remote-watch posts",
-    "build": "next build",
-    "rss": "node lib/rss",
-    "new": "node lib/db"
-=======
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
->>>>>>> 4f54ec6 (updates files)
   },
   "dependencies": {
     "next": "^9.3.3",

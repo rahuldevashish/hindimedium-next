@@ -10,29 +10,7 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head />
         <body>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `(function() {
-                try {
-                  var outdatedValue = localStorage.getItem('paco-light-mode')
-
-                  if (outdatedValue) {
-                    localStorage.setItem('${themeStorageKey}', 'light')
-                    localStorage.removeItem('paco-light-mode')
-                  }
-
-                  var mode = localStorage.getItem('${themeStorageKey}')
-                  if (!mode) return
-                  document.documentElement.classList.add(mode)
-                  var bgValue = getComputedStyle(document.documentElement)
-                    .getPropertyValue('${bgVariableName}')
-                  document.documentElement.style.background = bgValue
-                } catch (e) {}
-              })()`
-            }}
-          />
-          <Main />
-          <NextScript />
+          <p> Hare Krishna </p>
         </body>
       </Html>
     )

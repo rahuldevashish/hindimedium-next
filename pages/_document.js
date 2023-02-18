@@ -1,8 +1,6 @@
 import React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
-import { themeStorageKey } from '@lib/theme'
-const bgVariableName = '--bg'
 
 class MyDocument extends Document {
   render() {

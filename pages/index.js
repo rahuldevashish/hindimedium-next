@@ -8,13 +8,13 @@ const Home = () => (
     </Head>
 
     <main>
-      <h2 className="title">
-      
-      </h2>
-      <h1> HINDI MEDIUM CENTRAL</h1>
-      <p className="description">
-        Spirituality, Ethics , Academics and <code>Literature</code>
-      </p>
+      <h3 className="title">
+      HINDI MEDIUM CENTRAL
+      </h3>
+      {/* <h1 className="title"> </h1> */}
+      {/* <p className="description">
+      <code>Literature </code>, <code>Spirituality </code>  , <code>Ethics </code> , <code>Academics</code> and <code>Literature</code>
+      </p> */}
 
       <div className="grid">
         <a href="#" className="card">

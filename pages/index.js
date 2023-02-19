@@ -3,7 +3,7 @@ import Head from 'next/head'
 const Home = () => (
   <div className="container">
     <Head>
-      <title>Adhyatmik Shiksha Organization</title>
+      <title>HINDI MEDIUM CENTRAL</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
@@ -13,25 +13,25 @@ const Home = () => (
       </h1>
 
       <p className="description">
-        The spiritual solution for <code>material problems.</code>
+        Academics, Spirituality and <code>Ethics</code>
       </p>
 
       <div className="grid">
         <a href="http://hindimedium.com" className="card">
-          <h3>Documentation &rarr;</h3>
+          <h3>Spirituality &rarr;</h3>
           <p>Find in-depth information about Indian Spirituality.</p>
         </a>
 
         <a href="http://hindimedium.com" className="card">
-          <h3>Learn &rarr;</h3>
-          <p>Learn about Spirituality in an interactive course with quizzes!</p>
+          <h3>Ethics &rarr;</h3>
+          <p>Learn about Ethics in an interactive course with quizzes!</p>
         </a>
 
         <a
           href="http://hindimedium.com"
           className="card"
         >
-          <h3>Examples &rarr;</h3>
+          <h3>Academics &rarr;</h3>
           <p>Discover the permanent happiness inside you.</p>
         </a>
 
@@ -39,7 +39,7 @@ const Home = () => (
           href="#"
           className="card"
         >
-          <h3>Case Studies &rarr;</h3>
+          <h3>More &rarr;</h3>
           <p>
             Go through the case studies,done over the Spirituality.
           </p>
@@ -53,7 +53,7 @@ const Home = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        Copyrights Reserved ! Hindi Medium Education.
+        Copyrights Reserved @ Hindi Medium Education.
       </a>
     </footer>
 

@@ -5,11 +5,9 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head />
-        <body>
-         
+        <body>         
           <Main />
           <NextScript />
-          <p> Hare Krishna </p>
         </body>
       </Html>
     )

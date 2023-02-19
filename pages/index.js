@@ -9,7 +9,7 @@ const Home = () => (
 
     <main>
       <h1 className="title">
-        Welcome to <a href="http://hindimedium.com">Adhyatmik Shiksha!</a>
+       HINDI MEDIUM
       </h1>
 
       <p className="description">
@@ -53,7 +53,7 @@ const Home = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        An initiative of Hindi Medium Education.
+        Copyrights Reserved ! Hindi Medium Education.
       </a>
     </footer>
 

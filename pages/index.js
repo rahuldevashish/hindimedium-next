@@ -8,40 +8,40 @@ const Home = () => (
     </Head>
 
     <main>
-      <h1 className="title">
-       HINDI MEDIUM
-      </h1>
-
+      <h2 className="title">
+      
+      </h2>
+      <h1> HINDI MEDIUM CENTRAL</h1>
       <p className="description">
-        Academics, Spirituality and <code>Ethics</code>
+        Spirituality, Ethics , Academics and <code>Literature</code>
       </p>
 
       <div className="grid">
-        <a href="http://hindimedium.com" className="card">
+        <a href="#" className="card">
           <h3>Spirituality &rarr;</h3>
           <p>Find in-depth information about Indian Spirituality.</p>
         </a>
 
-        <a href="http://hindimedium.com" className="card">
+        <a href="#" className="card">
           <h3>Ethics &rarr;</h3>
-          <p>Learn about Ethics in an interactive course with quizzes!</p>
-        </a>
-
-        <a
-          href="http://hindimedium.com"
-          className="card"
-        >
-          <h3>Academics &rarr;</h3>
-          <p>Discover the permanent happiness inside you.</p>
+          <p>Learn about Ethics in an interactive way!</p>
         </a>
 
         <a
           href="#"
           className="card"
         >
-          <h3>More &rarr;</h3>
+          <h3>Academics &rarr;</h3>
+          <p>Dive into the  contemporary education system.</p>
+        </a>
+
+        <a
+          href="#"
+          className="card"
+        >
+          <h4>Literature &rarr;</h4>
           <p>
-            Go through the case studies,done over the Spirituality.
+            Read the interesting articles and poem.
           </p>
         </a>
       </div>
